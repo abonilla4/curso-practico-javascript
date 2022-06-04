@@ -5,9 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras Geometricas</title>
+    <style>
+
+    </style>
 </head>
 <body>
-    <h1>FIGURAS GEOMETRICAS</h1>
+    <header>
+        <h1>FIGURAS GEOMETRICAS</h1>
+        <p>Primer taller del curso practico de JavaScript</p>
+    </header>
+
+    <section>
+        <h2>Calcula el area de un CUADRADO</h2>
+        <form>
+            <label for="input-cuadrado">
+                <input type="number" id="input-cuadrado">
+                <button type="button" onclick="calcPerimetroCuadrado()">Calcular el Perimetro</button>
+                <button type="button" onclick="calcAreaCuadrado()">Calcular el Area</button>
+            </label>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula el area de un TRIANGULO</h2>
+        <form>
+            <label for="input-triangulo">
+                Lado 1<input type="number" id="lado1-triangulo">
+                Lado 2<input type="number" id="lado2-triangulo">
+                Base<input type="number" id="base-triangulo">
+                Altura<input type="number" id="altura-triangulo">
+                <button type="button" onclick="calcPerimetroTriangulo()">Calcular el Perimetro</button>
+                <button type="button" onclick="calcAreaTriangulo()">Calcular el Area</button>
+            </label>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula el area de un Circulo</h2>
+        <form>
+            <label for="input-circulo">
+                <input type="number" id="input-circulo">
+                <button type="button" onclick="calcPerimetroCirculo()">Calcular el Perimetro</button>
+                <button type="button" onclick="calcAreaCirculo()">Calcular el Area</button>
+            </label>
+        </form>
+    </section>
+    
 
     <script src="/figuras2.js"></script>
 </body>
